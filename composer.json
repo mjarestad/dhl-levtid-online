@@ -1,0 +1,15 @@
+{
+    "name": "mjarestad/dhl-levtid-online",
+    "description": "Package generated from https://www.dhltoolbox.se/LevtidOnline/LevtidOnline.svc?singleWsdl using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "ext-mbstring": "*",
+        "wsdltophp/packagebase": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mjarestad\\DHL\\LevtidOnline\\": "./src/"
+        }
+    }
+}
